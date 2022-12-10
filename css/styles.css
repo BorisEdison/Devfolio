@@ -6,6 +6,16 @@ nav{
 	background-color: #eefefe;
 }
 
+.nav-link {
+	color: #4ebabf;
+}
+.nav-link.active {
+	color: #00A8CC;
+}
+.nav-link:hover {
+	color: #00A8CC;
+}
+
 h5:after {
 	content: "";
 	display: block;

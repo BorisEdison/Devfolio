@@ -72,12 +72,12 @@ h3 {
 }
 
 .work ul li:hover span {
-  color: #fdd835;
+  color: #71C9CE;
 }
 
 @-webkit-keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #fdd835;
+    box-shadow: 0 0 0 0px #71C9CE;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -86,7 +86,7 @@ h3 {
 
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #fdd835;
+    box-shadow: 0 0 0 0px #71C9CE;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -117,7 +117,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid black;
-  background: #ffb300;
+  background: #71C9CE;
   border-radius: 50%;
   left: 3px;
   z-index: 1;
@@ -137,7 +137,9 @@ h3 {
 
 .work {
   /* width: 48%; */
-  /* background: #283593; */
+  border-radius: 10px;
+  background-color: #E3FDFD;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
   padding: 15px;
   margin: 0 4% 15px 0;
 }

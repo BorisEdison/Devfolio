@@ -29,6 +29,6 @@ h5:after {
 .content {
 	width: 90vw !important;
 	border-radius: 10px;
-	background-color: #E3FDFD;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	/* background-color: #E3FDFD; */
+	/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }

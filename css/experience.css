@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  display: block;
+  transition-duration: 0.3s;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h3 {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 1.25em;
+}
+
+/* .resume .func:hover > div {
+  transition-duration: 0.5s;
+}
+
+.resume .func:hover > div:hover h3 i {
+  transform: scale(1.25);
+}
+
+.resume .func:hover > div:not(:hover) {
+  opacity: 0.5;
+} */
+
+h3 {
+  transition-duration: 0.3s;
+  margin-top: 0;
+}
+
+/* h3 i {
+  color: #283593;
+  background: #ffb300;
+  width: 42px;
+  height: 42px;
+  font-size: 20px;
+  line-height: 42px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 8px;
+  transition-duration: 0.3s;
+} */
+
+.work
+{
+  float: left;
+}
+.work small
+{
+  display: block;
+  opacity: 0.7;
+}
+
+.work ul li {
+  position: relative;
+  margin-left: 15px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
+
+.work ul li:hover::before {
+  -webkit-animation: circle 1.2s infinite;
+          animation: circle 1.2s infinite;
+}
+
+.work ul li:hover span {
+  color: #fdd835;
+}
+
+@-webkit-keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px #fdd835;
+  }
+  to {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+
+@keyframes circle {
+  from {
+    box-shadow: 0 0 0 0px #fdd835;
+  }
+  to {
+    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
+  }
+}
+.work ul li:first-of-type::before{
+  width: 10px;
+  height: 10px;
+  left: 1px;
+}
+
+.work ul li:last-of-type{
+  padding-bottom: 3px;
+}
+
+.work ul li:last-of-type::after{
+  border-radius: 1.5px;
+}
+
+.work ul li::before,
+.work ul li::after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.work ul li::before{
+  width: 7px;
+  height: 7px;
+  border: 3px solid black;
+  background: #ffb300;
+  border-radius: 50%;
+  left: 3px;
+  z-index: 1;
+}
+
+.work ul li::after {
+  width: 3px;
+  height: 100%;
+  background: black;
+  left: 5px;
+  top: 0;
+}
+
+.work ul li span{
+  transition-duration: 0.3s;
+}
+
+.work {
+  /* width: 48%; */
+  /* background: #283593; */
+  padding: 15px;
+  margin: 0 4% 15px 0;
+}

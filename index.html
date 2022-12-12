@@ -12,17 +12,19 @@
     <!-- Google font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Corinthia&&?family=Ubuntu">
 
+    <!-- Hamburger -->
+    <link rel="stylesheet" href="dist/hamburger.css">
+
     <!-- Local StyleSheet -->
     <link rel="stylesheet" href="/css/experience.css">
     <link rel="stylesheet" href="/css/skills.css">
-
     <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 <body>
 
   <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg p-5 pt-4 pb-2 fixed-top">
+    <!-- <nav class="navbar navbar-expand-lg p-5 pt-4 pb-2 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="/content/logo-4.png" class="rounded-circle" style="box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;
@@ -34,27 +36,66 @@
           <div class="collapse navbar-collapse d-flex" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#accomplishment">Accomplishments</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#project">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#research">Research</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact Me</a>
               </li>
             </ul>
           </div>
         </div>
+      </nav> -->
+
+      <nav class="navbar navbar-expand-lg p-5 pt-4 pb-2 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="/content/logo-4.png" class="rounded-circle" style="box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;" alt="" width="70">
+          </a>
+          <button class=" hamburger hamburger--vortex navbar-toggler" onclick" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+          
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+              <a class="nav-link" href="#about">About</a>
+              <a class="nav-link" href="#accomplishment">Accomplishments</a>
+              <a class="nav-link" href="#project">Projects</a>
+              <a class="nav-link" href="#research">Research</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
+            </div>
+          </div>
+        </div>
       </nav>
+
+
+      <!-- <header>
+        <div class="container">
+          <nav id="navigation">
+            <a href="#" class="logo">Boris Edison</a>
+            <a aria-label="mobile menu" class="nav-toggle">
+              <span></span>
+              <span></span>
+              <span></span>
+            </a>
+            <ul class="menu-left">
+              <li><a href="#about">About</a></li>
+              <li><a href="#exp">Resume</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header> -->
 
 
       <!-- Home Section -->
@@ -90,7 +131,49 @@
       <section id="project" class="d-flex justify-content-center align-items-center">
 
         <div class="content">
-            <h5 class="section-heading text-center mt-3">About</h5>
+          <h5 class="section-heading text-center mt-3">About</h5>
+
+          <div class="row">
+            <div class="col-4">
+
+            </div>
+
+            <div class="col-4 d-flex justify-content-center align-items-center">
+              <img class="rounded-circle" width="200"  style="box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;"  src="/content/profile.jpg" alt="">
+            </div>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-3 g-4 pt-5">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Card title</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Card title</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Card title</h6>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <h6 class="card-title">Card title</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </section>
@@ -251,6 +334,7 @@
    <script src="https://code.iconify.design/2/2.1.2/iconify.min.js"></script>
 
    <!-- Local JavaScript -->
+   <script src="js/navbar.js"></script>
    <script src="js/index.js"></script>
 
   </body>

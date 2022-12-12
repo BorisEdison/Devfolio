@@ -72,12 +72,12 @@ h3 {
 }
 
 .work ul li:hover span {
-  color: #71C9CE;
+  color: #00A8CC;
 }
 
 @-webkit-keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #71C9CE;
+    box-shadow: 0 0 0 0px #00A8CC;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -86,7 +86,7 @@ h3 {
 
 @keyframes circle {
   from {
-    box-shadow: 0 0 0 0px #71C9CE;
+    box-shadow: 0 0 0 0px #00A8CC;
   }
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
@@ -117,7 +117,7 @@ h3 {
   width: 7px;
   height: 7px;
   border: 3px solid black;
-  background: #71C9CE;
+  background: #00A8CC;
   border-radius: 50%;
   left: 3px;
   z-index: 1;

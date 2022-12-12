@@ -16,6 +16,13 @@ nav{
 	color: #00A8CC;
 }
 
+.navbar-toggler:focus {
+    box-shadow: 0 0 0 0;
+}
+.nav-link:focus {
+	color: #00A8CC;
+}
+
 h5:after {
 	content: "";
 	display: block;

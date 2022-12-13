@@ -1,27 +1,6 @@
 body {
 	/* background-color: #eefefe; */
-	background-color: #E3FDFD;
-}
-
-nav{
-	background-color: #eefefe;
-}
-
-.nav-link {
-	color: #4ebabf;
-}
-.nav-link.active {
-	color: #00A8CC;
-}
-.nav-link:hover {
-	color: #00A8CC;
-}
-
-.navbar-toggler:focus {
-    box-shadow: 0 0 0 0;
-}
-.nav-link:focus {
-	color: #00A8CC;
+	background-color: var(--clr-accent-200);
 }
 
 h5:after {
@@ -34,9 +13,119 @@ h5:after {
 	margin: 5px auto;
   }
 
+.section {
+
+}
+
+.section-primary {
+	background-color: var(--clr-accent-200);
+}
+
+.section-secondary {
+	background-color: white;
+}
+
 .content {
 	width: 90vw !important;
-	border-radius: 10px;
-	/* background-color: #E3FDFD; */
-	/* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+	/* border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+.content-primary {
+	background-color: var(--clr-accent-200);
+}
+
+.content-secondary {
+	background-color: white;
+}
+
+/* home */
+#home {
+	height: 100vh !important;
+}
+#home .inner-row {
+	height: 35vh;
+}
+#home .home-cols {
+	padding-left: 0; 
+	padding-right: 0;
+}
+#home .side-img {
+	max-width: 150px !important;
+}
+#home .home-heading {
+	font-family: Corinthia; 
+	font-size: var(--fs-900); 
+	color: var(--clr-accent-500);
+}
+#home .home-info {
+	font-family: Continent; 
+	font-size: var(--fs-400); 
+	color: var(--clr-accent-500);
+}
+#home .main-img {
+	max-width: 500px !important;
+}
+
+@media (max-width: 1200px) {
+	#home .home-heading {
+		font-size: var(--fs-800) !important;
+	}
+	#home .home-info {
+		font-size: var(--fs-300);
+	}
+	#home .inner-row {
+		height: 40vh;
+	}
+	#home .side-img {
+		max-width: 140px !important;
+	}
+	#home .main-img {
+		max-width: 400px !important;
+	}
+}
+
+@media (max-width: 945px) {
+	#home .home-heading {
+		font-size: var(--fs-750) !important;
+	}
+	#home .inner-row {
+		height: 50vh;
+	}
+	#home .main-img {
+		max-width: 350px !important;
+	}
+}
+
+@media (max-width: 780px) {
+	#home .home-heading {
+		font-size: var(--fs-650) !important;
+	}
+	#home .home-info {
+		font-size: var(--fs-250);
+	}
+	#home .inner-row {
+		height: 55vh;
+	}
+	#home .side-img {
+		max-width: 90px !important;
+	}
+	#home .main-img {
+		max-width: 300px !important;
+	}
+}
+
+@media (max-width: 550px) {
+	#home .home-info-div{
+		justify-content: start !important;
+	}
+	#home .inner-row {
+		height: 60vh;
+	}
+	#home .side-img {
+		max-width: 90px !important;
+	}
+	#home .main-img {
+		max-width: 250px !important;
+	}
 }

@@ -1,12 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
-a {
-  text-decoration: none;
-  color: #ffffff;
-  display: block;
-  transition-duration: 0.3s;
-}
-
 ul {
   list-style-type: none;
   padding: 0;

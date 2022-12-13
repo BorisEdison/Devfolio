@@ -18,6 +18,7 @@
     <!-- Local StyleSheet -->
     <link rel="stylesheet" href="/css/experience.css">
     <link rel="stylesheet" href="/css/waves.css">
+    <link rel="stylesheet" href="/css/about.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/styles.css">
 
@@ -28,20 +29,33 @@
 
         {{>home}}   
 
+          {{>wavesPrimary}}
+
         {{>about}}
+
+          {{>wavesSecondary}}
 
         {{>technicalSkills}}
 
+          {{>wavesPrimary}}
+
         {{>resume}}
+
+          {{>wavesSecondary}}
 
         {{>projects}}
 
+          {{>wavesPrimary}}
+
         {{>accomplishments}}
 
-         {{>research}} 
+          {{>wavesSecondary}}
+
+        {{>research}} 
+
+          {{>wavesPrimary}}
 
         {{>contact}} 
-
 
     <!-- Boostrap CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
@@ -56,6 +70,11 @@
 
    <!-- Local JavaScript -->
    <script src="js/index.js"></script>
+
+    <!-- TiltJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/tilt.js@1.2.1/dest/tilt.jquery.min.js" crossorigin="anonymous"></script>
+
 
   </body>
 

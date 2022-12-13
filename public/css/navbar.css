@@ -34,6 +34,7 @@ nav{
 	color: var(--clr-accent-800);
 }
 
+/* media query */
 @media (max-width: 1200px) {
 	.navbar-scrolled {
 		padding: 0px 18px 0px !important;
@@ -42,11 +43,9 @@ nav{
 		padding: 24px 18px 8px !important;
 	}
 }
-
 @media (max-width: 945px) {
 
 }
-
 @media (max-width: 780px) {
 
 }

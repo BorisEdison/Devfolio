@@ -1,10 +1,7 @@
 @import "global.css";
-
 body {
-	/* background-color: #eefefe; */
 	background-color: var(--clr-accent-300);
 }
-
 h5:after {
 	content: "";
 	display: block;
@@ -16,23 +13,26 @@ h5:after {
   }
 
 .section {
-
+	padding-top: 10vh;
+	padding-bottom: 10vh;
 }
-
 .section-primary {
 	background-color: var(--clr-accent-300);
 }
-
 .section-secondary {
 	background-color: var(--clr-accent-100);
 }
-
+.section-heading {
+	font-size: var(--fs-450);
+}
+.section-sub-heading {
+	font-size: var(--fs-350);
+}
 .content {
 	width: 90vw !important;
 	/* border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
-
 .content-primary {
 	background-color: var(--clr-accent-300);
 }
@@ -75,6 +75,7 @@ h5:after {
 	max-width: 500px !important;
 }
 
+/* media query */
 @media (max-width: 1200px) {
 	#home .home-heading {
 		font-size: var(--fs-800) !important;

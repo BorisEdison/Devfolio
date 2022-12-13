@@ -1,0 +1,53 @@
+#about .about-info-row {
+    width: 30vw;
+}
+#about .about-info {
+    font-size: var(--fs-250);
+}
+#about .profile-img {
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;
+    width: 300px;
+}
+.about-info  > span {
+    color: var(--clr-accent-600);
+}
+#about .interests-div {
+    background-color: var(--clr-accent-500);
+    /* margin: 20px; */
+}
+.about-info > a {
+    text-decoration: none;
+    color: var(--clr-accent-600);
+}
+.about-info > a:hover {
+    color: var(--clr-accent-700);
+}
+
+/* media query */
+@media (max-width: 1400px) {
+    #about .about-info-row {
+        width: 40vw;
+    }
+}
+@media (max-width: 1200px) {
+    #about .profile-img {
+        width: 250px;
+    }
+    #about .about-info-row {
+        width: 37vw;
+    }
+}
+
+@media (max-width: 995px) {
+    #about .about-info-row {
+        width: 85vw;
+    }
+    #about .about-info-div {
+        padding-top: 20px ;
+    }
+    #about .about-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

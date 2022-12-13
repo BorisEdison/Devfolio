@@ -1,22 +1,60 @@
 @import "global.css";
 
 nav{
-	background-color: var(--clr-accent-200);
+	background-color: var(--clr-accent-300);
 }
-
+.hamburger-inner,.hamburger-inner::after,.hamburger-inner::before {
+	background-color: var(--clr-accent-700) !important;
+}
+.logo {
+	box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;
+	max-width: 70px;
+}
+.navbar-scrolled {
+	padding: 0px 48px 0px;
+}
+.navbar-unscrolled {
+	padding: 24px 48px 8px;
+}
 .nav-link {
-	color: var(--clr-accent-600);
+	color: var(--clr-accent-700);
+	font-size: var(--fs-250) !important;
 }
 .nav-link.active {
-	color: var(--clr-accent-700);
+	color: var(--clr-accent-800);
 }
 .nav-link:hover {
-	color: var(--clr-accent-700);
+	color: var(--clr-accent-800);
 }
 
 .navbar-toggler:focus {
     box-shadow: 0 0 0 0;
 }
 .nav-link:focus {
-	color: var(--clr-accent-700);
+	color: var(--clr-accent-800);
+}
+
+@media (max-width: 1200px) {
+	.navbar-scrolled {
+		padding: 0px 18px 0px !important;
+	}
+	.navbar-unscrolled {
+		padding: 24px 18px 8px !important;
+	}
+}
+
+@media (max-width: 945px) {
+
+}
+
+@media (max-width: 780px) {
+
+}
+@media (max-width: 550px) {
+	.navbar-scrolled {
+		padding: 0px 14px 0px !important;
+	}
+	.navbar-unscrolled {
+		padding: 24px 14px 8px !important;
+	}
 }

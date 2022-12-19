@@ -4,3 +4,37 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+}
+
+
+.submit-btn {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: var(--clr-accent-700);
+  background: linear-gradient(0deg, var(--clr-accent-700) 0%, var(--clr-accent-400) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em var(--clr-accent-700);
+  letter-spacing: 0.05em;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-btn:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em var(--clr-accent-700);
+}
+
+.submit-btn:active {
+  box-shadow: 0 0.3em 1em -0.5em var(--clr-accent-700);
+}

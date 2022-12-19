@@ -13,16 +13,15 @@
     font-weight: var(--fw-semi-bold);
 }
 #about .interests-div {
+    margin-top: 36px;
     width: 21rem;
     height: 7vh;
     border-radius: 7px;
     background-color: var(--clr-accent-300);
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
 }
 #about .interests-div:hover {
     transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.05);
-    box-shadow: 0 0 30px var(--clr-accent-700);
-
 }
 #about .interests-div-heading {
     font-size: var(--fs-250);

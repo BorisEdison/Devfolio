@@ -1,0 +1,6 @@
+#contact {
+    background-color: var(--clr-accent-100);
+    background-image: url("/content/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }

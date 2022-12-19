@@ -69,6 +69,7 @@ ul {
 }
 
 .work ul li:hover span {
+  font-weight: var(--fw-semi-bold);
   color: var(--clr-accent-800);
 }
 
@@ -90,9 +91,9 @@ ul {
   }
 }
 .work ul li:first-of-type::before{
-  width: 10px;
-  height: 10px;
-  left: 1px;
+  width: 14px;
+  height: 14px;
+  left: 0px;
 }
 
 .work ul li:last-of-type{
@@ -111,12 +112,12 @@ ul {
 }
 
 .work ul li::before{
-  width: 7px;
-  height: 7px;
+  width: 11px;
+  height: 11px;
   border: 3px solid black;
   background: var(--clr-accent-800);
   border-radius: 50%;
-  left: 3px;
+  left: 0.8px;
   z-index: 1;
 }
 
@@ -133,11 +134,10 @@ ul {
 }
 
 .work {
-  /* width: 48%; */
+  width: 60%;
+  margin-top: 36px;
   border-radius: 10px;
-  width: 500px;
   background-color: var(--clr-accent-300);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+  box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
   padding: 15px;
-  margin: 0 4% 15px 0;
 }

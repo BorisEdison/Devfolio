@@ -57,3 +57,8 @@ nav{
 		padding: 24px 14px 8px !important;
 	}
 }
+@media (max-height: 820px) {
+	.navbar-unscrolled {
+		padding: 14px 14px 8px !important;
+	}
+}

@@ -19,6 +19,11 @@
     background-color: var(--clr-accent-300);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
+#about .interests-div:hover {
+    transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.05);
+    box-shadow: 0 0 30px var(--clr-accent-700);
+
+}
 #about .interests-div-heading {
     font-size: var(--fs-250);
 }

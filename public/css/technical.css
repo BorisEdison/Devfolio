@@ -1,0 +1,6 @@
+.skills-heading {
+    font-size: var(--fs-300);
+}
+.skills-logo:hover {
+    transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.05);
+}

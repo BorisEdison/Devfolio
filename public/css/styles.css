@@ -40,6 +40,17 @@ h5:after {
 .content-secondary {
 	background-color: var(--clr-accent-100);
 }
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-20px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
 
 /* home */
 #home {
@@ -57,9 +68,11 @@ h5:after {
 }
 #home .side-img-left {
 	padding-left: 20px;
+	animation: float 6s ease-in-out infinite;
 }
 #home .side-img-right {
 	padding-right: 20px;
+	animation: float 6s ease-in-out infinite;
 }
 #home .home-heading {
 	font-family: Corinthia; 

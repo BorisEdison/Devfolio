@@ -13,7 +13,7 @@
     font-weight: var(--fw-semi-bold);
 }
 #about .interests-div {
-    width: 18rem;
+    width: 21rem;
     height: 7vh;
     border-radius: 7px;
     background-color: var(--clr-accent-300);

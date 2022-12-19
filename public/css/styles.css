@@ -11,7 +11,14 @@ h5:after {
 	background-color: #71C9CE;
 	margin: 5px auto;
   }
-
+  h2::after {
+    content: "";
+    width: 120px;
+    height: 1px;
+    display: inline-block;
+    background: #4ceb95;
+    margin: 4px 10px;
+}
 .section {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
@@ -27,6 +34,10 @@ h5:after {
 }
 .section-sub-heading {
 	font-size: var(--fs-350);
+}
+.section-sub-heading-primary {
+}
+.section-sub-heading-secondary {
 }
 .content {
 	width: 90vw !important;

@@ -22,5 +22,5 @@ app.get('',(req,res) => {
 })
 
 app.listen(8000, ()=> {
-    console.log('Server is up on port 3000.')
+    console.log('Server is up on port 8000.')
 })

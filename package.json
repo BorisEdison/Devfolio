@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "prod": "node src/app.js",
     "dev": "nodemon src/app.js"
   },
   "repository": {

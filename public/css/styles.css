@@ -11,14 +11,14 @@ h5:after {
 	background-color: #71C9CE;
 	margin: 5px auto;
   }
-  h2::after {
+  /* h2::after {
     content: "";
     width: 120px;
     height: 1px;
     display: inline-block;
     background: #4ceb95;
     margin: 4px 10px;
-}
+} */
 .section {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
@@ -46,4 +46,26 @@ h5:after {
 
 .content-secondary {
 	background-color: var(--clr-accent-100);
+}
+
+/* RollUp */
+#rollUp {
+	display: none;
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	right: 0;
+	margin: 15px;
+	text-decoration: none;
+	box-shadow: 0 0 5px 1px rgb(0 0 0 / 50%) !important;
+}
+#rollUp.scroll {
+	display: flex;
+}
+#rollUp.btn {
+	background-color: var(--clr-accent-700);
+	height: 6vh;
+	width: 6vh;
+	justify-content: center;
+	align-items: center;
 }

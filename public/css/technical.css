@@ -3,6 +3,10 @@
 }
 .skills-logo:hover {
     transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.07);
+    opacity: 1.05;
+}
+.skills-logo {
+    opacity: 0.95;
 }
 .skills-outer-div {
     width: 21rem;

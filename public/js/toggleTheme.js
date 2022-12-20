@@ -32,10 +32,10 @@ const change_theme = ()=>{
 if (localStorage.getItem('theme') != null){
   let thm = localStorage.getItem('theme');
   if (thm == 'dark'){
-    toggle.childNodes[1].setAttribute("data-icon", "ph:sun-fill"); 
+    toggle.childNodes[1].setAttribute("data-icon", "ri:moon-fill"); 
   }
   else{
-    toggle.childNodes[1].setAttribute("data-icon", "ri:moon-fill");
+    toggle.childNodes[1].setAttribute("data-icon", "ph:sun-fill");
   } 
   change_theme();
 }

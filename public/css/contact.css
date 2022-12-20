@@ -1,15 +1,14 @@
 #contact {
-    background-color: var(--clr-accent-100);
-    background-image: url("/content/map-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-hr {
-    border-top-color: #bbb;
-    opacity: 0.5;
+  background-color: var(--clr-accent-100);
+  background-image: url("/content/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
+hr {
+  color: var(--clr-accent-700);
+  opacity: 0.5;
+}
 
 .submit-btn {
   display: flex;
@@ -30,11 +29,9 @@ hr {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
-
 .submit-btn:hover {
   box-shadow: 0 0.5em 1.5em -0.5em var(--clr-accent-700);
 }
-
 .submit-btn:active {
   box-shadow: 0 0.3em 1em -0.5em var(--clr-accent-700);
 }

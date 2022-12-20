@@ -35,7 +35,7 @@ $('.js-tilt').tilt({
     maxGlare: .5,
 })
 
-// Shadow Animation
-$('.interests-div').animate({
-  boxShadow: '0 0 30px #44f'
-});
+// // Shadow Animation
+// $('.interests-div').animate({
+//   boxShadow: '0 0 30px #44f'
+// });

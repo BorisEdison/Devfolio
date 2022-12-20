@@ -3,6 +3,7 @@ body {
 	background-color: var(--clr-accent-300);
 }
 h5:after {
+	/* color: */
 	content: "";
 	display: block;
 	height: 3px;
@@ -11,14 +12,6 @@ h5:after {
 	background-color: #71C9CE;
 	margin: 5px auto;
   }
-  /* h2::after {
-    content: "";
-    width: 120px;
-    height: 1px;
-    display: inline-block;
-    background: #4ceb95;
-    margin: 4px 10px;
-} */
 .section {
 	padding-top: 10vh;
 	padding-bottom: 10vh;

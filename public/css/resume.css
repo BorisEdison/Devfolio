@@ -6,6 +6,7 @@ ul {
   padding: 0;
 }
 .work-div-heading {
+  color: var(--clr-sub-heading);
   margin: 10px 0;
   font-size: var(--fs-350);
   transition-duration: 0.3s;
@@ -13,7 +14,9 @@ ul {
 }
 
 .work-div-sub-heading {
+  color: var(--clr-accent-700);
   font-size: var(--fs-250);
+  font-weight: var(--fw-semi-bold);
 }
 
 .work-div-content {

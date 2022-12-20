@@ -67,6 +67,17 @@
         {{>contact}} 
 
     <!-- <footer> -->
+
+    {{!-- <span class="d-inline-block" id="dark-mode-toggle" tabindex="0" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Toggle Dark Mode">
+      <li class="nav-item-main">
+        <button type="button" class="btn" data-toggle="button"></span></button>
+      </li>
+    </span> --}}
+
+    <button id="toggle-theme" class="rounded-circle d-flex align-items-center justify-content-center">
+      <span class="iconify iconify-navbar" data-icon="ri:moon-fill" data-width="35" data-height="35" style="color: white"></span>
+    </button>
+
     <a href="#top" id="rollUp" class="rounded-circle init btn">
       <span class="iconify" data-icon="material-symbols:keyboard-arrow-up-rounded" data-width="50" data-height="50" style="color: white;"></span>
     </a>
@@ -96,8 +107,8 @@
 
    <!-- Local JavaScript -->
    <script src="/js/index.js"></script>
-
    <script src="/js/rollUp.js"></script>
+   <script src="/js/toggleTheme.js"></script>
 
     <!-- TiltJS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js" crossorigin="anonymous"></script>

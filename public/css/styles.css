@@ -23,9 +23,11 @@ h5:after {
 	background-color: var(--clr-accent-100);
 }
 .section-heading {
+	color: var(--clr-heading);
 	font-size: var(--fs-450);
 }
 .section-sub-heading {
+	color: var(--clr-sub-heading);
 	font-size: var(--fs-350);
 }
 .content {
@@ -56,6 +58,28 @@ h5:after {
 	display: flex;
 }
 #rollUp.btn {
+	background-color: var(--clr-accent-700);
+	height: 6vh;
+	width: 6vh;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Toggle Theme */
+#toggle-theme {
+	position: fixed;
+	border: 0;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	margin: 15px;
+	text-decoration: none;
+	box-shadow: 0 0 5px 1px rgb(0 0 0 / 50%) !important;
+}
+#toggle-theme.scroll {
+	display: flex;
+}
+#toggle-theme {
 	background-color: var(--clr-accent-700);
 	height: 6vh;
 	width: 6vh;

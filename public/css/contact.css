@@ -9,7 +9,9 @@ hr {
   color: var(--clr-accent-700);
   opacity: 0.5;
 }
-
+.contrib-info {
+  color: var(--clr-info);
+}
 .submit-btn {
   display: flex;
   align-items: center;
@@ -19,7 +21,7 @@ hr {
   padding: 0.7em 1.4em 0.7em 1.1em;
   color: white;
   background: var(--clr-accent-700);
-  background: linear-gradient(0deg, var(--clr-accent-700) 0%, var(--clr-accent-400) 100%);
+  background: linear-gradient(0deg, var(--clr-accent-700) 0%, var(--clr-accent-500) 100%);
   border: none;
   box-shadow: 0 0.7em 1.5em -0.5em var(--clr-accent-700);
   letter-spacing: 0.05em;

@@ -121,4 +121,7 @@
         width: 18rem;
         height: 8vh;
     }
+    #about .profile-img {
+        width: 150px;
+    }
 }

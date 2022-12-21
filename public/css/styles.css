@@ -1,8 +1,10 @@
 @import "global.css";
+
 body {
 	background-color: var(--clr-accent-300);
 }
-h5:after {
+
+.section-heading:after {
 	/* color: */
 	content: "";
 	display: block;
@@ -11,31 +13,68 @@ h5:after {
 	width: 50px;
 	background-color: #71C9CE;
 	margin: 5px auto;
-  }
+}
+
+.section-sub-heading {
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: 0;
+	line-height: 1.5em;
+	padding-bottom: 15px;
+	position: relative;
+}
+
+.section-sub-heading:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 5px;
+	width: 55px;
+	background-color: var(--clr-accent-700);
+}
+
+.section-sub-heading:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: 2px;
+	height: 1px;
+	width: 95%;
+	max-width: 255px;
+	background-color: var(--clr-accent-700);
+}
+
 .section {
 	padding-top: 10vh;
 	padding-bottom: 10vh;
 }
+
 .section-primary {
 	background-color: var(--clr-accent-300);
 }
+
 .section-secondary {
 	background-color: var(--clr-accent-100);
 }
+
 .section-heading {
 	color: var(--clr-heading);
 	font-size: var(--fs-450);
 }
+
 .section-sub-heading {
 	color: var(--clr-sub-heading);
 	font-size: var(--fs-350);
 }
+
 .content {
-	max-width: 1216px;
+	max-width: 1250px;
 	width: 90vw !important;
 	/* border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
 }
+
 .content-primary {
 	background-color: var(--clr-accent-300);
 }
@@ -55,9 +94,11 @@ h5:after {
 	text-decoration: none;
 	box-shadow: 0 0 5px 1px rgb(0 0 0 / 50%) !important;
 }
+
 #rollUp.scroll {
 	display: flex;
 }
+
 #rollUp.btn {
 	background-color: var(--clr-accent-700);
 	height: 6vh;
@@ -77,9 +118,11 @@ h5:after {
 	text-decoration: none;
 	box-shadow: 0 0 5px 1px rgb(0 0 0 / 50%) !important;
 }
+
 #toggle-theme.scroll {
 	display: flex;
 }
+
 #toggle-theme {
 	background-color: var(--clr-accent-700);
 	height: 6vh;

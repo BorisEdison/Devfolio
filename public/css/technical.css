@@ -2,16 +2,20 @@
     font-size: var(--fs-300);
     color: var(--clr-sub-heading);
 }
+
 .skills-logo:hover {
     transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.07);
     opacity: 1.05;
 }
+
 .skills-logo {
     opacity: 0.95;
 }
+
 .skills-outer-div {
     width: 21rem;
 }
+
 .skills-div {
     width: 21rem;
     background: var(--clr-accent-100);
@@ -20,22 +24,12 @@
 }
 
 /* media query */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {}
 
-}
+@media (max-width: 945px) {}
 
-@media (max-width: 945px) {
+@media (max-width: 780px) {}
 
-}
+@media (max-width: 550px) {}
 
-@media (max-width: 780px) {
-
-}
-
-@media (max-width: 550px) {
-
-}
-
-@media (max-height: 820px) {
-
-}
+@media (max-height: 820px) {}

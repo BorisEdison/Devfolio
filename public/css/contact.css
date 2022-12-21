@@ -9,9 +9,11 @@ hr {
   color: var(--clr-accent-700);
   opacity: 0.5;
 }
+
 .contrib-info {
   color: var(--clr-info);
 }
+
 .submit-btn {
   display: flex;
   align-items: center;
@@ -31,30 +33,22 @@ hr {
   -webkit-user-select: none;
   touch-action: manipulation;
 }
+
 .submit-btn:hover {
   box-shadow: 0 0.5em 1.5em -0.5em var(--clr-accent-700);
 }
+
 .submit-btn:active {
   box-shadow: 0 0.3em 1em -0.5em var(--clr-accent-700);
 }
 
 /* media query */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {}
 
-}
+@media (max-width: 945px) {}
 
-@media (max-width: 945px) {
+@media (max-width: 780px) {}
 
-}
+@media (max-width: 550px) {}
 
-@media (max-width: 780px) {
-
-}
-
-@media (max-width: 550px) {
-
-}
-
-@media (max-height: 820px) {
-
-}
+@media (max-height: 820px) {}

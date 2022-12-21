@@ -5,6 +5,7 @@ ul {
   list-style-type: none;
   padding: 0;
 }
+
 .work-div-heading {
   color: var(--clr-sub-heading);
   margin: 10px 0;
@@ -23,15 +24,15 @@ ul {
   font-size: var(--fs-200) !important;
 }
 
-.resume .func:hover > div {
+.resume .func:hover>div {
   transition-duration: 0.5s;
 }
 
-.resume .func:hover > div:hover h3 i {
+.resume .func:hover>div:hover h3 i {
   transform: scale(1.25);
 }
 
-.resume .func:hover > div:not(:hover) {
+.resume .func:hover>div:not(:hover) {
   opacity: 0.5;
 }
 
@@ -49,12 +50,11 @@ ul {
   transition-duration: 0.3s;
 } */
 
-.work
-{
+.work {
   float: left;
 }
-.work small
-{
+
+.work small {
   display: block;
   opacity: 0.7;
 }
@@ -68,7 +68,7 @@ ul {
 
 .work ul li:hover::before {
   -webkit-animation: circle 1.2s infinite;
-          animation: circle 1.2s infinite;
+  animation: circle 1.2s infinite;
 }
 
 .work ul li:hover span {
@@ -80,6 +80,7 @@ ul {
   from {
     box-shadow: 0 0 0 0px var(--clr-accent-800);
   }
+
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
   }
@@ -89,21 +90,23 @@ ul {
   from {
     box-shadow: 0 0 0 0px var(--clr-accent-800);
   }
+
   to {
     box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
   }
 }
-.work ul li:first-of-type::before{
+
+.work ul li:first-of-type::before {
   width: 14px;
   height: 14px;
   left: 0px;
 }
 
-.work ul li:last-of-type{
+.work ul li:last-of-type {
   padding-bottom: 3px;
 }
 
-.work ul li:last-of-type::after{
+.work ul li:last-of-type::after {
   border-radius: 1.5px;
 }
 
@@ -114,7 +117,7 @@ ul {
   position: absolute;
 }
 
-.work ul li::before{
+.work ul li::before {
   width: 11px;
   height: 11px;
   border: 3px solid black;
@@ -132,7 +135,7 @@ ul {
   top: 0;
 }
 
-.work ul li span{
+.work ul li span {
   transition-duration: 0.3s;
 }
 
@@ -146,22 +149,12 @@ ul {
 }
 
 /* media query */
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {}
 
-}
+@media (max-width: 945px) {}
 
-@media (max-width: 945px) {
+@media (max-width: 780px) {}
 
-}
+@media (max-width: 550px) {}
 
-@media (max-width: 780px) {
-
-}
-
-@media (max-width: 550px) {
-
-}
-
-@media (max-height: 820px) {
-
-}
+@media (max-height: 820px) {}

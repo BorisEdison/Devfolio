@@ -1,4 +1,5 @@
 const scrollUP = document.getElementById("rollUp");
+
 function displayButton() {
     if (window.pageYOffset > 500) {
         scrollUP.classList.add("scroll");

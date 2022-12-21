@@ -16,6 +16,7 @@ const change_theme = () => {
 
     // root.style.setProperty('--navbar-bg','#3F72AF');
     localStorage.setItem('theme', 'dark');
+    $('.social-links-logo').addClass('p-1')
     // toggle.setAttribute("aria-label", "Toggle Dark Theme");
   } else {
     toggle.childNodes[1].setAttribute("data-icon", "ri:moon-fill");
@@ -27,6 +28,7 @@ const change_theme = () => {
     root.style.setProperty('--clr-sub-heading', '#212529');
     root.style.setProperty('--clr-info', '#212529');
     // root.style.setProperty('--navbar-bg','#3F72AF');
+    $('.social-links-logo').removeClass('p-1')
     localStorage.setItem('theme', 'light');
     // toggle.setAttribute("aria-label", "Toggle Light Theme");
   }

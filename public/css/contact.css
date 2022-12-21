@@ -37,3 +37,24 @@ hr {
 .submit-btn:active {
   box-shadow: 0 0.3em 1em -0.5em var(--clr-accent-700);
 }
+
+/* media query */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 945px) {
+
+}
+
+@media (max-width: 780px) {
+
+}
+
+@media (max-width: 550px) {
+
+}
+
+@media (max-height: 820px) {
+
+}

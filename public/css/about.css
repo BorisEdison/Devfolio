@@ -21,6 +21,9 @@
     background-color: var(--clr-accent-300);
     box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
 }
+#about .interests-logo {
+    color: var(--clr-heading)
+}
 #about .interests-div:hover {
     transform: perspective(25px) rotateX(0deg) rotateY(0deg) scale(1.05);
 }

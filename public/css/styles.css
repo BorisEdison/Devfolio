@@ -31,6 +31,7 @@ h5:after {
 	font-size: var(--fs-350);
 }
 .content {
+	max-width: 1216px;
 	width: 90vw !important;
 	/* border-radius: 10px;
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */

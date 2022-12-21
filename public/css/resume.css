@@ -144,3 +144,24 @@ ul {
   box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
   padding: 15px;
 }
+
+/* media query */
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 945px) {
+
+}
+
+@media (max-width: 780px) {
+
+}
+
+@media (max-width: 550px) {
+
+}
+
+@media (max-height: 820px) {
+
+}

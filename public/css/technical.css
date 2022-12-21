@@ -30,6 +30,14 @@
 
 @media (max-width: 780px) {}
 
-@media (max-width: 550px) {}
-
+@media (max-width: 550px) {
+	.skills-heading {
+		font-size: var(--fs-300);
+	}
+}
+@media (min-width: 550px) {
+	#technical .skills-row {
+        padding-top: 16px !important;
+    }
+}
 @media (max-height: 820px) {}

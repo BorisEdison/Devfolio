@@ -5,23 +5,22 @@
   background-position: center;
 }
 
-hr {
-  color: var(--clr-accent-700);
-  opacity: 0.5;
+.contact-row {
+  padding-top: 88px;
+  padding-bottom: 88px;
 }
-
 .contrib-info {
   color: var(--clr-info);
 }
-
 .submit-btn {
   display: flex;
   align-items: center;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  padding: 0.7em 1.4em 0.7em 1.1em;
   color: white;
+  width: 90px;
+  height: 42px;
   background: var(--clr-accent-700);
   background: linear-gradient(0deg, var(--clr-accent-700) 0%, var(--clr-accent-500) 100%);
   border: none;
@@ -49,6 +48,11 @@ hr {
 
 @media (max-width: 780px) {}
 
-@media (max-width: 550px) {}
+@media (max-width: 550px) {
+  .contact-row {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+}
 
 @media (max-height: 820px) {}

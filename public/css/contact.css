@@ -13,10 +13,14 @@
 .contrib-info {
   color: var(--clr-info);
 }
-
+#contact p {
+  color: var(--clr-accent-700);
+  font-weight: var(--fw-bold);
+}
 .form-floating>.form-control {
   background-color: var(--clr-accent-100);
   color: var(--clr-info);
+  border: 2px solid var(--clr-accent-700);
 }
 
 .form-floating>.form-control:focus {
@@ -36,32 +40,46 @@ label {
 }
 
 .submit-btn {
-  display: flex;
-  align-items: center;
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  color: white;
-  width: 90px;
-  height: 42px;
-  background: var(--clr-accent-700);
-  background: linear-gradient(0deg, var(--clr-accent-700) 0%, var(--clr-accent-500) 100%);
-  border: none;
-  box-shadow: 0 0.7em 1.5em -0.5em var(--clr-accent-700);
-  letter-spacing: 0.05em;
-  border-radius: 10px;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid var(--clr-accent-700);
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: var(--clr-accent-700);
   cursor: pointer;
+  display: inline-block;
+  font-weight: var(--fw-semi-bold);
+  line-height: normal;
+  margin: 0;
+  font-size: 16px;
+  height: 40px;
+  text-transform: uppercase;
+  max-width: 100px;
+  outline: none;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.submit-btn:disabled {
+  pointer-events: none;
 }
 
 .submit-btn:hover {
-  box-shadow: 0 0.5em 1.5em -0.5em var(--clr-accent-700);
+  color: #fff;
+  background-color: var(--clr-accent-700);
+  box-shadow: rgba(78, 186, 191, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
 }
 
 .submit-btn:active {
-  box-shadow: 0 0.3em 1em -0.5em var(--clr-accent-700);
+  box-shadow: none;
+  transform: translateY(0);
 }
 
 .social-links {

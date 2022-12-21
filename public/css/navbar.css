@@ -28,6 +28,7 @@ nav {
 }
 
 .nav-link {
+	text-transform: uppercase;
 	color: var(--clr-accent-700);
 	font-size: var(--fs-250) !important;
 	position: relative;

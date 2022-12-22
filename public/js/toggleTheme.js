@@ -13,8 +13,6 @@ const change_theme = () => {
     root.style.setProperty('--clr-info', '#FFFFFF');
     // root.style.setProperty('--clr-accent-300','#111318');
     // root.style.setProperty('--clr-accent-100','#434c5e');
-
-    // root.style.setProperty('--navbar-bg','#3F72AF');
     localStorage.setItem('theme', 'dark');
     $('.social-links-logo').addClass('p-1')
     // toggle.setAttribute("aria-label", "Toggle Dark Theme");
@@ -27,7 +25,6 @@ const change_theme = () => {
     root.style.setProperty('--clr-heading', '#212529');
     root.style.setProperty('--clr-sub-heading', '#212529');
     root.style.setProperty('--clr-info', '#212529');
-    // root.style.setProperty('--navbar-bg','#3F72AF');
     $('.social-links-logo').removeClass('p-1')
     localStorage.setItem('theme', 'light');
     // toggle.setAttribute("aria-label", "Toggle Light Theme");

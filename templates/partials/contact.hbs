@@ -7,92 +7,93 @@
     <div class="row contact-row m-0">
 
       <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
-
-        <div class="form-floating mb-3">
-          <input type="text" class="form-control" id="floatingName" placeholder="Name">
-          <label for="floatingName">Name</label>
-        </div>
-
-        <div class="form-floating mb-3">
-          <input type="email" class="form-control" id="floatingEmail" placeholder="Email">
-          <label for="floatingEmail">Email</label>
-        </div>
-
-        <div class="form-floating">
-          <textarea class="form-control" placeholder="Message" id="floatingTextarea" style="height: 150px"></textarea>
-          <label for="floatingTextarea">Message</label>
-        </div>
-
-        <div class="row pt-3 d-flex align-items-center">
-          <div class="col-6">
-            <a href="mailto:borisedison@gmail.com" style="text-decoration: none; color: var(--clr-accent-700)">Send me
-              mail directly</a>
+        <form id="form" action="" onsubmit="return false">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="floatingName" placeholder="Name" required>
+            <label for="floatingName">Name</label>
           </div>
-          <div class="col-6 d-flex justify-content-end">
-            <button id="send-btn" type="button" class="send-btn d-flex justify-content-center align-items-center">
-              Send
-              &nbsp;
-              <span class="iconify" data-icon="ri:send-plane-fill" data-width="20" data-height="20"></span>
-            </button>
-            
-            <div class="toast-container position-fixed bottom-0 end-0 p-5 d-block" style="z-index: 15;">
-              <div id="toast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
-                <div class="d-flex">
-                  <div class="toast-body">
-                    Messsage sent
-                  </div>
-                  <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
-                </div>
-              </div>
-            </div>
 
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="floatingEmail" placeholder="Email" required>
+            <label for="floatingEmail">Email</label>
+          </div>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Message" id="floatingTextarea" style="height: 150px"
+              required></textarea>
+            <label for="floatingTextarea">Message</label>
+          </div>
+
+          <div class="row pt-3 d-flex align-items-center">
+            <div class="col-6">
+              <a href="mailto:borisedison@gmail.com" style="text-decoration: none; color: var(--clr-accent-700)">Send me
+                mail directly</a>
+            </div>
+            <div class="col-6 d-flex justify-content-end">
+              <button id="send-btn" type="submit" class="send-btn d-flex justify-content-center align-items-center">
+                Send
+                &nbsp;
+                <span class="iconify" data-icon="ri:send-plane-fill" data-width="20" data-height="20"></span>
+              </button>
+        </form>
+
+        <div class="toast-container position-fixed bottom-0 end-0 p-5 d-block" style="z-index: 15;">
+          <div id="toast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+              <div class="toast-body">
+                Messsage sent
+              </div>
+              <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
           </div>
         </div>
 
       </div>
+    </div>
+  </div>
 
-      <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+  <div class="col-lg-6 col-md-6 col-sm-12 mt-4">
+    <div class="row">
+      <div class="col-12 text-end">
+        <h6 class="section-sub-heading">Email</h6>
+        <p class="mb-5">borisedison@gmail.com</p>
+      </div>
+
+      <div class="col-12 text-end">
+        <h6 class="section-sub-heading">Address</h6>
+        <p class="m-0">Mumbai, Maharashtra</p>
+        <p class="mb-5">India</p>
+      </div>
+
+      <div class="col-12 text-end d-flex justify-content-end">
         <div class="row">
-          <div class="col-12 text-end">
-            <h6 class="section-sub-heading">Email</h6>
-            <p class="mb-5">borisedison@gmail.com</p>
+          <div class="col-12">
+            <h6 class="section-sub-heading">Connect with me</h6>
           </div>
-
-          <div class="col-12 text-end">
-            <h6 class="section-sub-heading">Address</h6>
-            <p class="m-0">Mumbai, Maharashtra</p>
-            <p class="mb-5">India</p>
-          </div>
-
-          <div class="col-12 text-end d-flex justify-content-end">
-            <div class="row">
-              <div class="col-12">
-                <h6 class="section-sub-heading">Connect with me</h6>
-              </div>
-              <div class="col-12">
-                <a class="social-links" href="https://github.com/BorisEdison" target="_blank">
-                  <span class="iconify social-links-logo" data-icon="akar-icons:github-fill" data-width="45"
-                    data-height="45"></span>
-                </a>
-                <a class="m-3 mt-0 mb-0 social-links" href="https://www.linkedin.com/in/borisedison/" target="_blank">
-                  <span class="iconify social-links-logo" data-icon="logos:linkedin-icon" data-width="45"
-                    data-height="45"></span>
-                </a>
-                <a class="social-links " href="https://www.instagram.com/_boris_edison_/" target="_blank">
-                  <span class="iconify social-links-logo"
-                    style="color: #ffffff; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);"
-                    data-icon="akar-icons:instagram-fill" data-width="45" data-height="45"></span>
-                </a>
-              </div>
-
-            </div>
-
+          <div class="col-12">
+            <a class="social-links" href="https://github.com/BorisEdison" target="_blank">
+              <span class="iconify social-links-logo" data-icon="akar-icons:github-fill" data-width="45"
+                data-height="45"></span>
+            </a>
+            <a class="m-3 mt-0 mb-0 social-links" href="https://www.linkedin.com/in/borisedison/" target="_blank">
+              <span class="iconify social-links-logo" data-icon="logos:linkedin-icon" data-width="45"
+                data-height="45"></span>
+            </a>
+            <a class="social-links " href="https://www.instagram.com/_boris_edison_/" target="_blank">
+              <span class="iconify social-links-logo"
+                style="color: #ffffff; background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);"
+                data-icon="akar-icons:instagram-fill" data-width="45" data-height="45"></span>
+            </a>
           </div>
 
         </div>
+
       </div>
 
     </div>
+  </div>
+
+  </div>
 
   </div>
 

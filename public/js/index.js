@@ -38,14 +38,12 @@ $(document).ready(function () {
 });
 
 // toast
-const toastTrigger = document.getElementById('send-btn')
 const toastLive = document.getElementById('toast')
-if (toastTrigger) {
-  toastTrigger.addEventListener('click', () => {
-    const toast = new bootstrap.Toast(toastLive)
-    toast.show()
-  })
-}
+$('#form').submit(function () {
+  const toast = new bootstrap.Toast(toastLive)
+  toast.show()
+  return false;
+ });
 
 // tiltJS
 $('.js-tilt').tilt({

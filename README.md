@@ -1,36 +1,30 @@
+<h2 align="center">
+  Honey Badger<br/>
+  <a href="https://borisedison.in/" target="_blank">borisedison.in</a>
+</h2>
+<h4 align="center">Portfolio Website</h4>
+<div align="center">
+  <!-- <img alt="Demo" src="Diffuser/blog/static/blog/logo/image.png" /> -->
+</div>
 
 # Built With
 
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E75028?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-2A93C9?&style=for-the-badge&logo=css3&logoColor=white)
 ![JS](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white)
 ![Bootsrap](https://img.shields.io/badge/Bootstrap-7952B3?&style=for-the-badge&logo=bootstrap&logoColor=white)
 ![jQuery](https://img.shields.io/badge/jQuery-0769AD?&style=for-the-badge&logo=jquery&logoColor=white)
-![handlebars]
-![nodemon]
-![NodeJs]
-![Express]
-![MongoDB]
-![iconify]
-![balloonCSS]
-![AOS]
-![Shadow Animation]
-![TiltJS]
+![NodeJs](https://img.shields.io/badge/nodejs-87C929?&style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/express-212529?&style=for-the-badge&logo=express&logoColor=white)
+![iconify](https://img.shields.io/badge/iconify-1767AA?&style=for-the-badge&logo=iconify&logoColor=white)
+![handlebars](https://img.shields.io/badge/handlebars-F0772B?&style=for-the-badge&logo=handlebars&logoColor=white)
+![nodemon](https://img.shields.io/badge/nodemon-76D04B?&style=for-the-badge&logo=nodemon&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-
-# Table of contents
-
-- [Features](#features)
-- [Contribute](#contribute)
-- [Contributors](#contributors)
-- [License](#license)
 
 
 # Features <a id="features"></a>
 
 - Responsive Portfolio Website Using HTML CSS & JavaScript
-- Backend is added for contact section, powered by Node, Express & MongoDB
 - Single Page layout
 - Includes a dark and light mode
 - Compatible with all mobile devices and with a beautiful and pleasant user interface

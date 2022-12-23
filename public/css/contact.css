@@ -13,10 +13,12 @@
 .contrib-info {
   color: var(--clr-info);
 }
+
 #contact p {
   color: var(--clr-accent-700);
   font-weight: var(--fw-bold);
 }
+
 .form-floating>.form-control {
   background-color: var(--clr-accent-100);
   color: var(--clr-info);
@@ -39,7 +41,7 @@ label {
   color: var(--clr-info);
 }
 
-.submit-btn {
+.send-btn {
   appearance: none;
   background-color: transparent;
   border: 2px solid var(--clr-accent-700);
@@ -66,20 +68,33 @@ label {
   will-change: transform;
 }
 
-.submit-btn:disabled {
+.send-btn:disabled {
   pointer-events: none;
 }
 
-.submit-btn:hover {
+.send-btn:hover {
   color: #fff;
   background-color: var(--clr-accent-700);
   box-shadow: rgba(78, 186, 191, 0.25) 0 8px 15px;
   transform: translateY(-2px);
 }
 
-.submit-btn:active {
+.send-btn:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+#toast {
+  font-size: var(--fs-100);
+  width: 300px;
+}
+
+.btn-close:focus {
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
+}
+
+.btn-close:active {
+  box-shadow: 0 0 0 0.25rem rgb(78 186 191 / 25%)
 }
 
 .social-links {
@@ -105,7 +120,11 @@ label {
 
 @media (max-width: 945px) {}
 
-@media (max-width: 780px) {}
+@media (max-width: 780px) {
+  #toast {
+    width: auto;
+  }
+}
 
 @media (max-width: 550px) {
   .contact-row {

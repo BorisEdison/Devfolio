@@ -149,9 +149,13 @@ body {
 	}
 
 	.section {
-		padding-top: 5vh;
-		padding-bottom: 5vh;
+		padding-top: 7.3vh;
+		padding-bottom: 7vh;
 	}
 }
 
-@media (max-height: 820px) {}
+@media (max-height: 750px) {
+	.section{
+		padding-top: 9.2vh;
+	}
+}

@@ -140,7 +140,7 @@ ul {
 }
 
 .work {
-  width: 65%;
+  width: 90%;
   margin-top: 36px;
   border-radius: 10px;
   background-color: var(--clr-accent-300);
@@ -151,10 +151,28 @@ ul {
 /* media query */
 @media (max-width: 1200px) {}
 
+@media (max-width: 993px) {
+  .work {
+    width: 65%;
+  }
+}
+
 @media (max-width: 945px) {}
 
-@media (max-width: 780px) {}
+@media (max-width: 780px) {
+  .work {
+    width: 85%;
+  }
+}
 
-@media (max-width: 550px) {}
+@media (max-width: 550px) {
+  .work {
+    width: 90%;
+  }
+}
 
-@media (max-height: 820px) {}
+@media (max-height: 820px) {
+  .work {
+    width: 90%;
+  }
+}

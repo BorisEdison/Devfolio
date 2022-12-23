@@ -37,6 +37,16 @@ $(document).ready(function () {
 
 });
 
+// toast
+const toastTrigger = document.getElementById('send-btn')
+const toastLive = document.getElementById('toast')
+if (toastTrigger) {
+  toastTrigger.addEventListener('click', () => {
+    const toast = new bootstrap.Toast(toastLive)
+    toast.show()
+  })
+}
+
 // tiltJS
 $('.js-tilt').tilt({
   glare: true,

@@ -1,0 +1,9 @@
+.project-outer-div {
+  width: 35rem;
+}
+.project-div {
+  width: 35rem;
+  background: var(--clr-accent-100);
+  border-radius: 9px;
+  box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
+}

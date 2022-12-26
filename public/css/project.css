@@ -9,4 +9,77 @@
 }
 
 
-background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%);
+/* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
+
+.date-badge {
+  font-size: 12px;
+  color: white;
+  font-weight: var(--fw-semi-bold);
+  background-color: rgba(78, 186, 191, 0.7);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;  
+  border-radius: 7px;
+  padding: 7px;
+}
+
+.built-with-icons {
+  width: 16px;
+  height: 16px;
+}
+
+.built-with-badge {
+  font-weight: var(--fw-bold);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;  
+  margin: 4px 2px;
+  border-radius: 7px;
+  padding: 5px 7px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 1.2);
+}
+
+.html-badge {
+  background-color: rgba(231, 80, 40, 0.8);
+}
+
+.css-badge {
+  background-color: rgba(42, 147, 201, 0.8);
+}
+
+.bootstrap-badge {
+  background-color: rgba(121, 82, 179, 0.8);
+}
+
+.javascript-badge {
+  background-color: rgba(245, 208, 50, 0.8);
+}
+
+.jquery-badge {
+  background-color: rgba(88, 151, 189, 0.8);
+}
+
+.nodejs-badge {
+  background-color: rgba(135, 201, 41, 0.8);
+}
+
+.express-badge {
+  background-color: rgba(33, 37, 41,0.8);
+}
+
+.hbs-badge {
+  background-color: rgba(240, 119, 43, 0.8);
+}
+
+.django-badge {
+  background-color: rgba(12, 75, 51, 0.8);
+}
+
+.jinja-badge {
+  background-color: rgba(231, 80, 40, 0.8);
+}
+
+.chartjs-badge {
+  background-color: rgba(246, 113, 116, 0.8);
+}
+
+.sqlite-badge {
+  background-color: rgba(11, 125, 203, 0.8);
+}

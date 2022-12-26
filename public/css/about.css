@@ -11,6 +11,7 @@
 #about .profile-img {
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5) !important;
     width: 270px;
+    border: 5px solid var(--clr-accent-700);
 }
 
 .about-info>span {

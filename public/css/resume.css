@@ -53,33 +53,33 @@ ul {
   animation: circle 1.2s infinite;
 }
 
-.resume ul li:hover span {
+.resume-li:hover span {
   font-weight: var(--fw-semi-bold);
   color: var(--clr-accent-800);
 }
 
-.resume ul li:first-of-type::before {
+.resume-li:first-of-type::before {
   width: 14px;
   height: 14px;
   left: 0px;
 }
 
-.resume ul li:last-of-type {
+.resume-li:last-of-type {
   padding-bottom: 3px;
 }
 
-.resume ul li:last-of-type::after {
+.resume-li:last-of-type::after {
   border-radius: 1.5px;
 }
 
-.resume ul li::before,
-.resume ul li::after {
+.resume-li::before,
+.resume-li::after {
   content: "";
   display: block;
   position: absolute;
 }
 
-.resume ul li::before {
+.resume-li::before {
   width: 11px;
   height: 11px;
   border: 3px solid black;
@@ -89,7 +89,7 @@ ul {
   z-index: 1;
 }
 
-.resume ul li::after {
+.resume-li::after {
   width: 3px;
   height: 100%;
   background: black;

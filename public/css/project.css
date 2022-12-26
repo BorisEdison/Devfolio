@@ -11,11 +11,30 @@
 
 /* background-image: linear-gradient(to right, #00dbde 0%, #fc00ff 100%); */
 
+.project-heading {
+  color: var(--clr-accent-700);
+  font-weight: var(--fw-semi-bold);
+  opacity: 1.2;
+}
+.project-info {
+  color: var(--clr-info);
+  opacity: 0.6;
+  font-size: var(--fs-150);
+  text-align: justify;
+}
+
+.iconify-redirect-icon {
+  color: var(--clr-heading);
+}
+.iconify-redirect-icon:hover {
+  color: var(--clr-accent-700);
+}
+
 .date-badge {
-  font-size: 12px;
+  font-size: var(--fs-100);
   color: white;
   font-weight: var(--fw-semi-bold);
-  background-color: rgba(78, 186, 191, 0.7);
+  background-color: rgba(78, 186, 191, 0.6);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;  
   border-radius: 7px;
   padding: 7px;
@@ -32,7 +51,7 @@
   margin: 4px 2px;
   border-radius: 7px;
   padding: 5px 7px;
-  font-size: 12px;
+  font-size: var(--fs-100);
   color: rgba(255, 255, 255, 1.2);
 }
 

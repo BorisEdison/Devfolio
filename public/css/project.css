@@ -78,9 +78,9 @@
 
 .date-badge {
   font-size: var(--fs-100);
-  color: white;
+  color: rgba(255,255,255,1.2);
   font-weight: var(--fw-semi-bold);
-  background-color: rgba(78, 186, 191, 0.6);
+  background-color: rgba(78, 186, 191, 0.7);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   border-radius: 7px;
   padding: 7px;

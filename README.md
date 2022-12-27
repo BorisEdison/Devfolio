@@ -4,7 +4,7 @@
 </h2>
 <h4 align="center">Portfolio Website</h4>
 <div align="center">
-  <img alt="Demo" src="public/content/hb1.png" />
+  <img alt="Demo" src="public/content/hb.png" />
 </div>
 
 # Built With
@@ -24,11 +24,12 @@
 
 # Features <a id="features"></a>
 
-- Responsive Portfolio Website Using HTML CSS & JavaScript
+- Fully Responsive Portfolio Website
+- Modern UI Design
 - Single Page layout
-- Includes a dark and light mode
-- Compatible with all mobile devices and with a beautiful and pleasant user interface
-
+- Includes dark mode
+- Comes with Bootstrap grid system
+- Easy colour changes can be done through simple variable edits
 
 # Contribute  <a id="contribute"></a>
 Contributions are welcome, and they are greatly appreciated! Every little bit helps, and credit will always be given.
@@ -76,6 +77,7 @@ npm run prod
 
 Give a ⭐ if you like this website!
 
+<a href="https://www.buymeacoffee.com/borisedison" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-green.png" alt="Buy Me A Coffee" height= "40px" width= "130px" ></a>
 
 # Contributors <a id="contributors"></a>
   - Boris Edison<br> 

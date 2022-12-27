@@ -32,7 +32,7 @@ ul {
 }
 
 .resume-div-content>p {
-  font-size: var(--fs-200) !important;
+  font-size: var(--fs-200);
   color: var(--clr-info);
   opacity: 0.65;
 }
@@ -158,6 +158,18 @@ ul {
 @media (max-width: 550px) {
   .resume {
     width: 90%;
+  }
+  .resume-div-heading {
+    font-size: var(--fs-300);
+  }
+  .resume-div-sub-heading {
+    font-size: var(--fs-200)
+  }
+  .resume-div-content>p {
+    font-size: var(--fs-150);
+  }
+  .resume-info-ul {
+    font-size: var(--fs-150);
   }
 }
 

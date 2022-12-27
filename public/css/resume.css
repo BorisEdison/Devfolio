@@ -7,13 +7,14 @@ ul {
 }
 
 .resume {
-  width: 90%;
-  float: left;
+  width: 541px;
   margin-top: 36px;
   border-radius: 10px;
   background-color: var(--clr-accent-300);
   box-shadow: rgba(78, 186, 191, 0.4) 5px 5px, rgba(78, 186, 191, 0.3) 10px 10px, rgba(78, 186, 191, 0.2) 15px 15px, rgba(78, 186, 191, 0.1) 20px 20px, rgba(78, 186, 191, 0.05) 25px 25px;
   padding: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 .resume-div-heading {
@@ -175,6 +176,8 @@ ul {
 @media (max-width: 550px) {
   .resume {
     width: 90%;
+    margin-left: 0;
+    margin-right: 0;
   }
   .resume-div-heading {
     font-size: var(--fs-300);
@@ -196,6 +199,6 @@ ul {
 
 @media (max-height: 820px) {
   .resume {
-    width: 90%;
+    width: 541px;
   }
 }

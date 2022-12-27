@@ -53,6 +53,23 @@ ul {
   color: var(--clr-accent-800);
 }
 
+.km-btn {
+  background-color: transparent;
+  border: 0ch;
+  color: var(--clr-accent-700);
+  font-weight: bolder;
+  transition: transform .2s ease-in-out;
+}
+
+.km-icon {
+  width: 33px !important;
+  height: 33px !important;
+}
+
+.btn-transform {
+  transform: rotate(-180deg);
+}
+
 /* .resume:hover {
   transform: scale(1.01);
   transition-duration: 1s ;
@@ -170,6 +187,10 @@ ul {
   }
   .resume-info-ul {
     font-size: var(--fs-150);
+  }
+  .km-icon {
+    width: 25px !important;
+    height: 25px !important;
   }
 }
 

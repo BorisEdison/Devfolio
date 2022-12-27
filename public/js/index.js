@@ -37,6 +37,28 @@ $(document).ready(function () {
 
 });
 
+// resume section info toggle
+var kmApbBtn = document.querySelector(".km-apb-btn");
+var kmApbInfo = document.querySelector('.km-apb-info')
+kmApbBtn.addEventListener("click", function () {
+  kmApbBtn.classList.toggle("btn-transform");
+  kmApbInfo.classList.toggle("d-none")
+});
+
+var kmMptBtn = document.querySelector(".km-mpt-btn");
+var kmMptInfo = document.querySelector('.km-mpt-info')
+kmMptBtn.addEventListener("click", function () {
+  kmMptBtn.classList.toggle("btn-transform");
+  kmMptInfo.classList.toggle("d-none")
+});
+
+var kmAmtBtn = document.querySelector(".km-amt-btn");
+var kmAmtInfo = document.querySelector('.km-amt-info')
+kmAmtBtn.addEventListener("click", function () {
+  kmAmtBtn.classList.toggle("btn-transform");
+  kmAmtInfo.classList.toggle("d-none")
+});
+
 // toast
 const toastLive = document.getElementById('toast')
 $('#form').submit(function () {

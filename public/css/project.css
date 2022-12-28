@@ -84,6 +84,7 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   border-radius: 7px;
   padding: 7px;
+  white-space: nowrap;
   height: 28px;
 }
 

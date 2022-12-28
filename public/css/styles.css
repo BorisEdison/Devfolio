@@ -155,7 +155,11 @@ body {
 }
 
 @media (max-height: 750px) {
-	.section{
+	.section {
 		padding-top: 9.2vh;
+	}
+	#rollUp.btn, #toggle-theme  {
+		height: 7vh;
+		width: 7vh;
 	}
 }

@@ -76,7 +76,7 @@ nav {
   display: inline-block;
   font-size: 16px;
   line-height: normal;
-  margin: 0;
+  margin: 4px;
   height: 35px;
   width: 50px;
   outline: none;
@@ -114,7 +114,11 @@ nav {
 	}
 }
 
-@media (max-width: 945px) {}
+@media (max-width: 993px) {
+	.fork-btn {
+		margin: 4px 0;
+	}
+}
 
 @media (max-width: 780px) {}
 

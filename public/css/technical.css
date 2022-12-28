@@ -38,18 +38,21 @@
 @media (max-width: 780px) {}
 
 @media (max-width: 550px) {
-	.skills-heading {
-		font-size: var(--fs-300);
-	}
+    .skills-heading {
+        font-size: var(--fs-300);
+    }
+
     .skills-icon {
         height: 45px;
         width: 45px;
         border-radius: 6px;
     }
 }
+
 @media (min-width: 550px) {
-	#technical .skills-row {
+    #technical .skills-row {
         padding-top: 16px !important;
     }
 }
+
 @media (max-height: 820px) {}

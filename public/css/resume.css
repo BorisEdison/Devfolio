@@ -202,3 +202,9 @@ ul {
     width: 90%;
   }
 }
+
+@media (min-width: 1145px) {
+  .resume {
+    width: 511px;
+  }
+}

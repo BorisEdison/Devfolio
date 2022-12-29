@@ -3,7 +3,7 @@
         <a class="navbar-brand" href="#">
             <img src="/content/logo.webp" class="logo rounded-circle" style="" alt="Boris Edison logo">
         </a>
-        <button class="hamburger hamburger--vortex navbar-toggler" type="button" data-bs-toggle="collapse"
+        <button class="hamburger hamburger--vortex navbar-toggler" name="hamburger-btn" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
             aria-label="Toggle navigation">
             <span class="hamburger-box">
@@ -13,17 +13,17 @@
 
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-                <a class="nav-link" aria-current="page" href="#home">Home</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link" href="#technical">Technical Skills</a>
-                <a class="nav-link" href="#resume">Resume</a>
+                <a class="nav-link" name="home-link" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" name="about-link" href="#about">About</a>
+                <a class="nav-link" name="technical-link" href="#technical">Technical Skills</a>
+                <a class="nav-link" name="resume-link" href="#resume">Resume</a>
                 {{!-- <a class="nav-link" href="#accomplishment">Accomplishments</a> --}}
-                <a class="nav-link" href="#project">Projects</a>
+                <a class="nav-link" name="project-link" href="#project">Projects</a>
                 {{!-- <a class="nav-link" href="#research">Research</a> --}}
-                <a class="nav-link" href="#contact">Contact</a>
-                <a id="nav-item" target="_blank" aria-label="Fork" data-balloon-pos="down"
+                <a class="nav-link" name="contact-link" href="#contact">Contact</a>
+                <a id="nav-item" name="fork-link" target="_blank" aria-label="Fork" data-balloon-pos="down"
                     href="https://github.com/BorisEdison/Honey-Badger" class="d-flex align-items-center justify-content-start">
-                    <button class="fork-btn" class="d-flex justify-content-center align-items-center">
+                    <button class="fork-btn" name="fork-btn" class="d-flex justify-content-center align-items-center">
                         <span class="iconify" data-icon="ph:git-fork" data-width="23" data-height="23"></span>
                     </button>
                 </a>

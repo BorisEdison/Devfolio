@@ -4,7 +4,7 @@
 </h2>
 <h4 align="center">Portfolio Website</h4>
 <div align="center">
-  <img alt="Demo" src="public/content/hb.png" />
+  <img alt="Demo" src="public/content/hb.webp" />
 </div>
 
 # Built With

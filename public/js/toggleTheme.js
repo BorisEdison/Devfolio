@@ -33,6 +33,12 @@ const change_theme = () => {
     // toggle.setAttribute("aria-label", "Toggle Light Theme");
   }
 };
+
+if (localStorage.getItem('theme') == null) {
+  toggle.childNodes[1].setAttribute("data-icon", "ri:moon-fill")
+  change_theme()
+}
+
 if (localStorage.getItem('theme') != null) {
   let thm = localStorage.getItem('theme');
   if (thm == 'dark') {

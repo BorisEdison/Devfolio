@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="/css/technical.css">
   <link rel="stylesheet" href="/css/project.css">
   <link rel="stylesheet" href="/css/home.css">
+  <link rel="stylesheet" href="/css/preloader.css">
   <link rel="stylesheet" href="/css/navbar.css">
   <link rel="stylesheet" href="/css/styles.css">
 
@@ -43,27 +44,37 @@
 
 <body>
 
-  {{>navbar}}
+  <div class="preloader">
+    <div class="load">
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+    </div>
+  </div>
 
-  {{>home}}
+  <div class="main-content d-none">
+    {{>navbar}}
 
-  {{>wavesPrimary}}
+    {{>home}}
 
-  {{>about}}
+    {{>wavesPrimary}}
 
-  {{>wavesSecondary}}
+    {{>about}}
 
-  {{>technicalSkills}}
+    {{>wavesSecondary}}
 
-  {{>wavesPrimary}}
+    {{>technicalSkills}}
 
-  {{>resume}}
+    {{>wavesPrimary}}
 
-  {{>wavesSecondary}}
+    {{>resume}}
 
-  {{>projects}}
+    {{>wavesSecondary}}
 
-  {{!-- {{>wavesPrimary}}
+    {{>projects}}
+
+    {{!-- {{>wavesPrimary}}
 
         {{>accomplishments}}
 
@@ -71,28 +82,31 @@
 
         {{>research}}  --}}
 
-  {{>wavesPrimary}}
+    {{>wavesPrimary}}
 
-  {{>contact}}
+    {{>contact}}
 
-  <!-- <footer> -->
-  <div class="footer d-flex justify-content-center align-items-center">
-    <div class="row" style="margin-right: 0; margin-left: 0">
-      <div class="col-12 d-flex justify-content-center mt-4 mb-4">
-        <p class="contrib-info m-0" class="m-0">Made with ❤️ by Boris Edison</p>
+    <!-- <footer> -->
+    <div class="footer d-flex justify-content-center align-items-center">
+      <div class="row" style="margin-right: 0; margin-left: 0">
+        <div class="col-12 d-flex justify-content-center mt-4 mb-4">
+          <p class="contrib-info m-0" class="m-0">Made with ❤️ by Boris Edison</p>
+        </div>
       </div>
     </div>
+
+    <button id="toggle-theme" class="rounded-circle d-flex align-items-center justify-content-center">
+      <span class="iconify iconify-navbar" data-icon="ri:moon-fill" data-width="30" data-height="30"
+        style="color: white"></span>
+    </button>
+
+    <a href="#top" id="rollUp" class="rounded-circle init btn">
+      <span class="iconify" data-icon="material-symbols:keyboard-arrow-up-rounded" data-width="40" data-height="40"
+        style="color: white;"></span>
+    </a>
+
   </div>
 
-  <button id="toggle-theme" class="rounded-circle d-flex align-items-center justify-content-center">
-    <span class="iconify iconify-navbar" data-icon="ri:moon-fill" data-width="30" data-height="30"
-      style="color: white"></span>
-  </button>
-
-  <a href="#top" id="rollUp" class="rounded-circle init btn">
-    <span class="iconify" data-icon="material-symbols:keyboard-arrow-up-rounded" data-width="40" data-height="40"
-      style="color: white;"></span>
-  </a>
 
   <!-- AOS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

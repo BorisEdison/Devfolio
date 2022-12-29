@@ -1,3 +1,9 @@
+// preloader 
+setTimeout(function(){
+  $('.preloader').addClass('d-none');
+  $('.main-content').removeClass('d-none');
+}, 2500);
+
 // navbar
 var hamburger = document.querySelector(".hamburger");
 var navbar = document.querySelector('.navbar')

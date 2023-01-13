@@ -21,6 +21,10 @@ app.get('',(req,res) => {
     res.render('index')
 })
 
+app.get('/*',(req,res) => {
+    res.render('index')
+})
+
 app.listen(8000, ()=> {
     console.log('Server is up on port 8000.')
 })

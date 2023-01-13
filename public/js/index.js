@@ -65,10 +65,28 @@ kmAmtBtn.addEventListener("click", function () {
   kmAmtInfo.classList.toggle("d-none")
 });
 
+
 // toast
 const toastLive = document.getElementById('toast')
 $('#form').submit(function () {
   const toast = new bootstrap.Toast(toastLive)
+
+ //emailJS
+ var params = {
+  userName: document.getElementById("user_name").value,
+  userEmail: document.getElementById("user_email").value,
+  userMessage: document.getElementById("user_message").value
+}
+
+ const serviceID = "";
+ const templateID = ""
+
+  emailjs.send(serviceID, templateID, params).then((res) => {
+    document.getElementById("user_name").value = ""
+    document.getElementById("user_email").value = ""
+    document.getElementById("user_message").value = ""
+  })
+
   toast.show()
   return false;
  });

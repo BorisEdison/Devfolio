@@ -164,6 +164,14 @@
   background-color: rgba(12, 75, 51, 1);
 }
 
+.python-badge {
+  background-color: rgba(63, 120, 168, 0.8);
+}
+
+.python-badge:hover {
+  background-color: rgba(63, 120, 168, 1);
+}
+
 .jinja-badge {
   background-color: rgba(231, 80, 40, 0.8);
 }

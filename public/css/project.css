@@ -21,8 +21,8 @@
 }
 
 .project-img {
-	-webkit-transition: .5s ease-in-out;
-	transition: .5s ease-in-out;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   max-width: 100%;
   border-radius: 7px;
@@ -41,8 +41,8 @@
 
 .project-img:hover {
   border-radius: 7px;
-	-webkit-transform: scale(1.15);
-	transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
   box-shadow: rgba(78, 186, 191, 0.35) 0px 5px 15px;
 }
 
@@ -78,9 +78,9 @@
 
 .date-badge {
   font-size: var(--fs-100);
-  color: rgba(255,255,255,1.2);
+  color: rgba(255, 255, 255, 1.2);
   font-weight: var(--fw-semi-bold);
-  background-color: rgba(78, 186, 191, 0.7);
+  background-color: rgba(78, 186, 191, 0.9);
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
   border-radius: 7px;
   padding: 7px;
@@ -89,7 +89,7 @@
 }
 
 .date-badge:hover {
-  background-color: rgba(78, 186, 191, 1);
+  background-color: rgba(78, 186, 191, 0.8);
 }
 
 .html-badge {

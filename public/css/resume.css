@@ -25,7 +25,9 @@ ul {
   margin-top: 0;
   margin-left: 15px;
 }
-
+.resume-div-heading-icon {
+  margin-right: 10px;
+}
 .resume-div-sub-heading {
   color: var(--clr-accent-700);
   font-size: var(--fs-250);

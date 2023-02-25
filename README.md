@@ -85,5 +85,10 @@ Give a ⭐ if you like this website!
 
 # License  <a id="license"></a>
 
-Code release under the
+Code released under the
 [MIT](https://github.com/BorisEdison/Honey-Badger/blob/dev/LICENSE.txt) license
+
+
+Built by <a href="https://github.com/BorisEdison">@BorisEdison</a> for his own portfolio. **Copyright (c) 2023 by Boris Edison**. You are allowed to use this webpage for both personal and commercial use, but **NOT** to claim it as your own design. **A credit to the original author, Boris Edison, is a must!**
+
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.

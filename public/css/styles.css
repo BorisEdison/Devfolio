@@ -19,12 +19,19 @@ body {
 
 .section-heading {
 	color: var(--clr-heading);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
 	font-size: var(--fs-450);
 	position: relative;
 	padding-bottom: 5px;
+	text-shadow: rgba(78, 186, 191, 0.1) 0 0 2px,
+		rgba(78, 186, 191, 0.3) 4px 5px 0,
+		rgba(78, 186, 191, 0.2) 7px 11px 0,
+		rgba(78, 186, 191, 0.1) 12px 17px 0,
+		rgba(78, 186, 191, 0.05) 17px 23px 0
 }
 
-.section-heading:before {
+/* .section-heading:before {
 	width: 28px;
 	height: 5px;
 	display: block;
@@ -46,7 +53,7 @@ body {
 	left: 50%;
 	margin-left: -50px;
 	background-color: var(--clr-accent-700);
-}
+} */
 
 .section-sub-heading {
 	color: var(--clr-sub-heading);
@@ -158,7 +165,9 @@ body {
 	.section {
 		padding-top: 9.2vh;
 	}
-	#rollUp.btn, #toggle-theme  {
+
+	#rollUp.btn,
+	#toggle-theme {
 		height: 7vh;
 		width: 7vh;
 	}

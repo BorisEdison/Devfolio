@@ -25,9 +25,11 @@ ul {
   margin-top: 0;
   margin-left: 15px;
 }
+
 .resume-div-heading-icon {
   margin-right: 10px;
 }
+
 .resume-div-sub-heading {
   color: var(--clr-accent-700);
   font-size: var(--fs-250);
@@ -181,18 +183,23 @@ ul {
     margin-left: 0;
     margin-right: 0;
   }
+
   .resume-div-heading {
     font-size: var(--fs-300);
   }
+
   .resume-div-sub-heading {
     font-size: var(--fs-200)
   }
+
   .resume-div-content>p {
     font-size: var(--fs-150);
   }
+
   .resume-info-ul {
     font-size: var(--fs-150);
   }
+
   .km-icon {
     width: 25px !important;
     height: 25px !important;

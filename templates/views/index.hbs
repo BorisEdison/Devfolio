@@ -28,7 +28,10 @@
 
   <!-- Hamburger -->
   <link rel="stylesheet" href="/dist/hamburgers/hamburger.css">
-
+  
+  <!-- GitHub Calendar -->
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+  
   <!-- Local StyleSheet -->
   <link rel="stylesheet" href="/css/resume.css">
   <link rel="stylesheet" href="/css/waves.css">
@@ -127,13 +130,21 @@
   </script>
 
   <!-- emailjs -->
-  <script type="text/javascript"
-          src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
   </script>
   <script type="text/javascript">
-    (function(){
-        emailjs.init("");
+    (function () {
+      emailjs.init("");
     })();
+  </script>
+
+  <!-- GitHub Calendar -->
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
+  <script>
+    GitHubCalendar(".calendar", "BorisEdison", {
+      responsive: true,
+    })
   </script>
 
   <!-- iconify -->
@@ -141,7 +152,9 @@
 
   <!-- jQuery -->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
 
   <!-- Local JavaScript -->
   <script src="/js/index.js"></script>

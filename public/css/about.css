@@ -83,6 +83,54 @@
     background-color: var(--clr-accent-700);
 } */
 
+/* github calendar */
+.calendar {
+    border: none !important;
+}
+rect.ContributionCalendar-day[data-level='0'] {
+    fill: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+rect.ContributionCalendar-day[data-level='1'] {
+    fill: #A6E3E9;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+rect.ContributionCalendar-day[data-level='2'] {
+    fill: #71C9CE;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+rect.ContributionCalendar-day[data-level='3'] {
+    fill: #4ebabf;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+rect.ContributionCalendar-day[data-level='4'] {
+    fill: #00A8CC;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+text.ContributionCalendar-label {
+    fill: var(--clr-sub-heading) !important;
+}
+.calendar .graph-before-activity-overview {
+    border: none !important;
+}
+.calendar .float-right {
+    color: var(--clr-sub-heading);
+}
+.calendar .text-muted {
+    color: var(--clr-sub-heading) !important;
+}
+.calendar .contrib-number {
+    color: var(--clr-sub-heading) !important;
+}
+.calendar .contrib-column {
+    border-left: none;
+    border-top: none;
+}
+
 /* media query */
 @media (max-width: 1400px) {
     #about .about-info-row {

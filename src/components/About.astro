@@ -1,0 +1,114 @@
+---
+import { interests } from "../data/interests";
+import { ESection } from "../enums/section.enum";
+import { ELocale } from "../i18n/locales.enum";
+import { getTranslations } from "../i18n/utils";
+
+interface Props {
+  locale?: ELocale;
+}
+
+const { locale = ELocale.EN } = Astro.props;
+
+const t = getTranslations(locale);
+---
+
+<section
+  id={ESection.ABOUT}
+  class="section section-secondary d-flex justify-content-center align-items-center"
+>
+  <div class="content content-secondary">
+    <h3 class="section-heading text-center mt-3">
+      {t.sectionHeadings.about}
+    </h3>
+
+    <div class="row about-row m-0 mt-5 mb-4">
+      <div
+        class="col-lg-6 col-sm-12 col-md-12 p-0 d-flex justify-content-center align-items-center"
+      >
+        <img
+          class="rounded-circle profile-img"
+          src="/content/boris-2.webp"
+          alt="Boris Profile Picture"
+        />
+      </div>
+
+      <div
+        class="col-lg-6 col-sm-12 col-md-12 p-0 about-info-div d-flex justify-content-center align-items-center"
+      >
+        <div
+          class="row d-flex about-info-row justify-content-center align-items-center"
+        >
+          <p class="about-info">
+            {t.about.introStart}
+            {" "}
+            <span>{t.about.degree}</span>
+            {" "}
+            {t.about.introAfterDegree}
+            {" "}
+            <span>{t.about.architecture}</span>
+            {" "}
+            {t.about.introAfterArchitecture}
+            {" "}
+            <span>{t.about.problemSolving}</span>
+            {" "}
+            {t.about.introEnd}
+
+            <br /><br />
+
+            {t.about.hobbyStart}
+            {" "}
+            <a
+              href="https://www.keybr.com/profile/v28on8s"
+              target="_blank"
+              aria-label={t.about.keybrLabel}
+              >{t.about.keybrText}<span
+                class="iconify"
+                data-icon="charm:link-external"
+                data-width="23"
+                data-height="23"></span>.</a
+            >
+            {" "}
+            {t.about.hobbyAfterKeybr}
+            {" "}
+            <span>{t.about.tennis}</span>
+            {" "}
+            {t.about.hobbyAnd}
+            {" "}
+            <span>{t.about.formulaOne}</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <h3 class="section-sub-heading section-sub-heading-primary">
+      {t.sectionHeadings.interests}
+    </h3>
+
+    <div class="row pb-5 m-0">
+      {
+        interests.map((interest) => (
+          <div class="col-lg-3 col-md-4 col-sm-6 p-0 d-flex justify-content-center align-items-center">
+            <div
+              class="interests-div d-flex justify-content-start align-items-center"
+              data-aos="fade-up"
+              data-aos-delay={interest.animationDelay}
+            >
+              &nbsp;&nbsp;&nbsp;
+              <span
+                class="iconify interests-logo"
+                data-icon={interest.icon}
+                data-width="35"
+                data-height="35"
+              />
+              &nbsp;
+              <h4 class="mb-0 interests-div-heading">
+                {t.interests[interest.labelKey]}
+              </h4>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

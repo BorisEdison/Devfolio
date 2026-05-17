@@ -1,0 +1,77 @@
+---
+import { navLinks } from "../data/navLinks";
+import { ECommonAriaLabel } from "../enums/translationKey.enum";
+import { ELocale } from "../i18n/locales.enum";
+import { getTranslations } from "../i18n/utils";
+
+interface Props {
+  locale?: ELocale;
+}
+
+const { locale = ELocale.EN } = Astro.props;
+
+const t = getTranslations(locale);
+---
+
+<nav class="navbar navbar-expand-lg fixed-top navbar-unscrolled">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img
+        src="/content/logo.webp"
+        class="logo rounded-circle"
+        style=""
+        alt="Boris Edison logo"
+      />
+    </a>
+    <button
+      class="hamburger hamburger--vortex navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label={t.ariaLabels.common[ECommonAriaLabel.TOGGLE_NAVIGATION]}
+    >
+      <span class="hamburger-box">
+        <span class="hamburger-inner"></span>
+      </span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ms-auto">
+        {
+          navLinks.map((navLink) => (
+            <a
+              class="nav-link"
+              aria-label={t.ariaLabels.nav[navLink.ariaLabelKey]}
+              href={`#${navLink.section}`}
+            >
+              {t.nav[navLink.labelKey]}
+            </a>
+          ))
+        }
+
+        <a
+          id="nav-item"
+          target="_blank"
+          aria-label={t.ariaLabels.common[ECommonAriaLabel.FORK_REPOSITORY]}
+          data-balloon-pos="down"
+          href="https://github.com/BorisEdison/Honey-Badger"
+          class="d-flex align-items-center justify-content-start"
+        >
+          <button
+            class="fork-btn"
+            aria-label={t.ariaLabels.common[ECommonAriaLabel.FORK_BUTTON]}
+            class="d-flex justify-content-center align-items-center"
+          >
+            <span
+              class="iconify"
+              data-icon="ph:git-fork"
+              data-width="23"
+              data-height="23"></span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>

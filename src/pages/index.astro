@@ -1,0 +1,24 @@
+---
+import Home from "../components/Home.astro";
+import Navbar from "../components/Navbar.astro";
+import Waves from "../components/Waves.astro";
+import { EWave } from "../enums/wave.enum";
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout title="Boris Edison">
+  <div class="preloader">
+    <div class="load">
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+      <hr class="preloader-hr" />
+    </div>
+  </div>
+
+  <div class="main-content d-none">
+    <Navbar />
+    <Home />
+    <Waves variant={EWave.PRIMARY} />
+  </div>
+</BaseLayout>
